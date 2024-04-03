@@ -1,3 +1,25 @@
+Skip to content
+pavodim
+/
+BEWP
+
+Type / to search
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Azure Static Web Apps CI/CD
+Update azure-static-web-apps-jolly-pond-00e24ab03.yml #4
+Jobs
+Run details
+Workflow file for this run
+.github/workflows/azure-static-web-apps-jolly-pond-00e24ab03.yml at ad3cdff
 name: Azure Static Web Apps CI/CD
 
 on:
@@ -24,7 +46,7 @@ jobs:
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.6b6bb07888c806d74e18a6d14f868659ce1a57b5b03fbb15e759f9f585bbd2855-7890653d-2c07-451b-8da1-b34530cfed4b003411956 }}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_POND_00E24AB03 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
@@ -45,3 +67,4 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_POND_00E24AB03 }}
           action: "close"
+Update azure-static-web-apps-jolly-pond-00e24ab03.yml · pavodim/BEWP@ad3cdff  
