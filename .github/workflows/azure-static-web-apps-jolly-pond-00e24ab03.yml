@@ -15,7 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3 # Assuming v3 is compatible with Node.js 20
+
         with:
           submodules: true
           lfs: false
