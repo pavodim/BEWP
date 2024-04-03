@@ -1,25 +1,3 @@
-Skip to content
-pavodim
-/
-BEWP
-
-Type / to search
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Azure Static Web Apps CI/CD
-Update azure-static-web-apps-jolly-pond-00e24ab03.yml #4
-Jobs
-Run details
-Workflow file for this run
-.github/workflows/azure-static-web-apps-jolly-pond-00e24ab03.yml at ad3cdff
 name: Azure Static Web Apps CI/CD
 
 on:
@@ -67,4 +45,3 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_POND_00E24AB03 }}
           action: "close"
-Update azure-static-web-apps-jolly-pond-00e24ab03.yml · pavodim/BEWP@ad3cdff  
