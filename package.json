@@ -1,7 +1,11 @@
 {
   "name": "vanilla-basic",
   "version": "1.0.0",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": { 
-    "start": "sirv ./src public --cors --single --no-clear --port 8000"
+    "start": "sirv ./src --cors --single --no-clear --port 8000",
+    "build": "echo 'Build step not required for vanilla JS project'"
   }
 }
