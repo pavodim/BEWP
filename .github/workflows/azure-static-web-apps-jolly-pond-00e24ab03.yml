@@ -40,7 +40,7 @@ jobs:
       - name: Cleanup Git Config
         run: |
           if git config --get http.https://github.com/.extraheader; then
-            git config --unset http.https://github.com/.extraheader
+            git config --unset http.https://github.com/.extraheader || true
           fi
 
   close_pull_request_job:
